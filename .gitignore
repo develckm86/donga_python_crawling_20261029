@@ -1,0 +1,22 @@
+# ── 비밀 정보: 절대 올리지 않기 ──
+.env
+
+# ── 가상환경: 각자 pip install -r requirements.txt 로 만듦 ──
+.venv/
+
+# ── 파이썬·노트북이 자동으로 만드는 파일 ──
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ── 실행 결과: 실행하면 다시 생김 ──
+output/
+logs/
+ichart_record.xlsx
+wevity_공모전.xlsx
+
+# ── 편집기·운영체제 파일 ──
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
